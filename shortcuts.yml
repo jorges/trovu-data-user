@@ -9,3 +9,14 @@ examplekeyword 2:
   description: My custom shortcut with the keyword examplekeyword and 2 arguments.
   tags:
   - example
+gh 0:
+  title: My personal Github shortcut
+  url: https://www.github.com/
+gh 1: 
+  url: https://www.github.com/<user>
+  include:
+    key: gh 0
+n 1:
+  include:
+    key: npm 1
+    namespace: o
